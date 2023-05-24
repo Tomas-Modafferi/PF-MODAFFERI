@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: urban;
+    src: url(../assets/fonts/URBAN\ TRIBE.ttf);
+}
+body{
+    overflow-x: hidden;
+}
+
+header nav .UG a{
+    color: #FF5C00;
+    font-size: 50px;
+}
+body{
+    font-weight: bold;
+    color: #FF5C00;
+    background-color: #1D1818
+}
+.main1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.main2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1{
+font-family: urban;
+color: #FF5C00;
+text-align: center;
+}
+
+    
+header nav {
+    width: 100%;    
+}
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    justify-content: left;
+    padding: 15px 20px;
+    color: #FF5C00;
+    margin: 5px 50px;
+    font-size: 25px;
+}
+
+footer ul{
+    margin: 0px 20px;
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+}
+footer ul li {
+    text-decoration: none;
+	display: inline-block;
+}
+footer ul li a{
+    display: inline-block;
+    font-size: 25px;
+    color: #FF5C00;
+    text-decoration: none;
+    padding: 50px 70px;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.shirt a{
+    color: #FF5C00; 
+    text-align: center;
+    text-decoration: none;
+}
+.shirt img{
+    height:350px;
+    width: 350px;
+    vertical-align: top;
+    justify-content: center;
+}
+
+.pants a{
+    color: #FF5C00;
+    text-align: center;
+    text-decoration: none;
+}
+.pants img{
+    height:350px;
+    width: 350px;
+    vertical-align: top;
+}
+
+.accesories a{
+    color: #FF5C00;
+    text-align: center;
+    text-decoration: none;
+}
+.accesories img{
+    height:450px;
+    width: 450px;
+    vertical-align: top;
+}
+
+.hoodies a{
+    color: #FF5C00;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+.hoodies img{
+    height:350px;
+    width: 350px;
+}
+.main1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main1 a{
+    display: flex;
+    justify-content: center;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main2 a{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 1440px){
+    header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li a{
+        display: flex;
+        justify-content: flex-end;
+    }
+    header .UG a{
+        display: flex;
+        justify-content: flex-start;
+        color: #FF5C00;
+        font-size: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifx; 
+        text-decoration: none;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    h1{
+        justify-content: center;
+    }
+    .main2 .shirts {
+        
+    }
+
+    
+
+    }
+    @media (max-width: 1024px) {
+        header nav ul li a{
+            padding: 10px 30px;
+            margin: 15px;
+            justify-content: center;
+        }
+        .main2 .hoodies a{
+            display: flex;
+            justify-content: center;
+                        
+        }
+        .main2 .accesories a{
+           display: flex;
+           justify-content: center;
+        }
+        .main1 .shirt a{
+            display: flex;
+            justify-content: center;   
+        }
+        .main1 .pants a{
+           display: flex;
+           justify-content: center;
+        }
+        footer ul li a{
+            justify-content: space-between;
+            padding: 40px 40px;
+        }
+    }
+
+
+
+    @media (max-width: 768px){
+        .header ul li a{
+            font-size: 18px;
+            padding: 5px;
+        }
+        
+        .main1 .shirt img{
+            height: 350px;
+            width: 350px;
+        }
+        .main1 .pants img{
+            height: 350px;
+            width: 350px;
+        }
+        .main2 .hoodies img{
+            height: 350px;
+            width: 350px;
+        }
+        .main2 .accesories img{
+            height: 350px;
+            width: 350px;
+        }
+        footer ul li a{
+            justify-content: space-between;
+            padding: 10px 10px;
+            font-size: 20px;
+        }        
+       header.UG a{
+            display: flex;
+            justify-content: flex-start;
+            color: #FF5C00;
+            padding: 5px;
+        }
+    }
+    
+
+
+@media (max-width:426px){
+    .header h1{
+        display: flex;
+        justify-content: center;
+        background-color: red;
+
+    }
+}
+
+    
+
+
+
+
+
+
+
