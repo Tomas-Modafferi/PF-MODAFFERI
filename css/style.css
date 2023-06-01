@@ -13,12 +13,12 @@ body{
 
 header nav .UG a{
     color: #FF5C00;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: urban;
 }
 body{
     font-weight: bold;
-    color: #FF5C00;
-    background-color: #1D1818
+    background-image: linear-gradient(to left, #000000, #230e12, #3f1218, #5a1619, #751c15, #751c15, #751c15, #751c15, #5a1619, #3f1218, #230e12, #000000);
 }
 .main1{
     display:flex;
@@ -75,6 +75,9 @@ footer ul li a{
     text-decoration: none;
     padding: 50px 70px;
 }
+.footer ul li a:hover{
+    text-decoration: underline;
+}
 
 .main1{
     display: flex;
@@ -98,6 +101,9 @@ footer ul li a{
     vertical-align: top;
     justify-content: center;
 }
+.shirt img:hover{
+    transform: scale(1.2, 1.2);
+}
 
 .pants a{
     color: #FF5C00;
@@ -109,6 +115,9 @@ footer ul li a{
     width: 350px;
     vertical-align: top;
 }
+.pants img:hover{
+    transform: scale(1.2, 1.2);
+}
 
 .accesories a{
     color: #FF5C00;
@@ -116,9 +125,12 @@ footer ul li a{
     text-decoration: none;
 }
 .accesories img{
-    height:450px;
-    width: 450px;
+    height:350px;
+    width: 350px;
     vertical-align: top;
+}
+.accesories img:hover{
+    transform: scale(1.2, 1.2);
 }
 
 .hoodies a{
@@ -130,6 +142,9 @@ footer ul li a{
 .hoodies img{
     height:350px;
     width: 350px;
+}
+.hoodies img:hover{
+    transform: scale(1.2, 1.2);
 }
 .main1{
     display: flex;
@@ -150,7 +165,28 @@ footer ul li a{
     grid-template-rows: 1px 1px;
 }
 
+.pants h2{
+    color: #FF5C00;
+}
+.accesories h2{
+    color: #FF5C00;
+}
+.hoodies h2{
+    color: #FF5C00;
+}
+.shirt h2{
+    color: #FF5C00;
+}
 
+.grid-container1.acc1-grid {
+    height: 300px;
+    width: 300px;
+}
+.h1-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: blue;
+}
 
 .header-grid nav ul li a{
     display: grid;
@@ -165,16 +201,29 @@ footer ul li a{
 .h1-grid{
     display: grid;
     width: 100vh;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-area: auto;
 
 }
 
-
 .grid-container1{
+    width: 100%;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:100px 100px 100px ;
+}
+
+.grid-container2{
+    grid-template-columns: 100px 100px 100px;   
+    grid-template-rows: 100px 100px 100px; 
+
+}
+
+/* .grid-container1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,2fr);
-    height: 700px;
+    height: 500px;
+    column-gap: 100px;
 }    
 
 .grid-container1 .acc1-grid img{
@@ -197,17 +246,17 @@ footer ul li a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,2fr);
-    height: 700px;
+    height: 500px;
 }
 
 .grid-container2 .acc3-grid img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin: 30px;
 }
 .grid-container2 .acc4-grid img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300;
     margin: 30px;
 }
 .grid-container2 .acc3-grid h2{
@@ -217,7 +266,18 @@ footer ul li a{
 .grid-container2 .acc4-grid h2{
     margin:30px;
 }
-
+.acc1-grid h2{
+    color: #FF5C00;
+}
+.acc2-grid h2{
+    color: #FF5C00;
+}
+.acc3-grid h2{
+    color: #FF5C00;
+}
+.acc4-grid h2{
+    color: #FF5C00;
+} */
 
 
 
