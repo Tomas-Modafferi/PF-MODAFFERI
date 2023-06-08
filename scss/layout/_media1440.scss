@@ -1,0 +1,34 @@
+@media (max-width: 1440px){
+    h1{
+        justify-content: center;
+    }
+    header{
+        .UG{
+            a{
+                display: flex;
+                justify-content: flex-start;
+                color: #FF5C00;
+                font-size: 100px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifx; 
+                text-decoration: none;
+                margin: 5px;
+                padding: 5px;
+            }
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            ul{
+                display: flex;
+                justify-content: flex-start;
+                margin: 10px;
+                li{
+                    a{
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                }
+            }
+        }
+    }
+}

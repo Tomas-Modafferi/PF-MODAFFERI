@@ -1,0 +1,352 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: urban;
+    src: url(../assets/fonts/URBAN\ TRIBE.ttf);
+} */
+
+/* header nav .UG a{
+    color: #FF5C00;
+    font-size: 40px;
+    font-family: urban;
+} */
+/* body{
+    font-weight: bold;
+    background-image: linear-gradient(to left, #000000, #230e12, #3f1218, #5a1619, #751c15, #751c15, #751c15, #751c15, #5a1619, #3f1218, #230e12, #000000);
+    overflow-x: hidden  ; */
+
+/* .main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+} */
+
+/* 
+h1{
+font-family: urban;
+color: #FF5C00;
+text-align: center;
+} */
+
+    
+/* header nav {
+    width: 100%;    
+}
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    justify-content: left;
+    padding: 15px 20px;
+    color: #FF5C00;
+    margin: 5px 50px;
+    font-size: 25px;
+} */
+
+/* footer ul{ */
+    /* margin: 0px 20px;
+    text-align: center;
+    overflow: hidden;
+    list-style: none; */
+/* }
+footer ul li {
+    text-decoration: none;
+	display: inline-block;
+}
+footer ul li a{
+    display: inline-block;
+    font-size: 25px;
+    color: #FF5C00;
+    text-decoration: none;
+    padding: 50px 70px;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+} */
+
+/* .main{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+} */
+
+
+/* .shirt a{
+    color: #FF5C00; 
+    text-align: center;
+    text-decoration: none;
+} */
+/* .shirt img{
+    height:350px;
+    width: 350px;
+    vertical-align: top;
+    justify-content: center;
+}
+.shirt img:hover{
+    transform: scale(1.2, 1.2);
+} */
+
+.pants a{
+    color: #FF5C00;
+    text-align: center;
+    text-decoration: none;
+}
+.pants img{
+    height:350px;
+    width: 350px;
+    vertical-align: top;
+}
+.pants img:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.accesories a{
+    color: #FF5C00;
+    text-align: center;
+    text-decoration: none;
+}
+.accesories img{
+    height:350px;
+    width: 350px;
+    vertical-align: top;
+}
+.accesories img:hover{
+    transform: scale(1.2, 1.2);
+}
+.accesories a:hover{
+    text-decoration: underline;
+}
+
+.hoodies a{
+    color: #FF5C00;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+.hoodies img{
+    height:350px;
+    width: 350px;
+}
+.hoodies img:hover{
+    transform: scale(1.2, 1.2);
+}
+.hoodies a:hover{
+    text-decoration: underline;
+}
+.main1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main1 a{
+    display: flex;
+    justify-content: center;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main2 a{
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 1px 1px;
+}
+
+.pants h2{
+    color: #FF5C00;
+}
+.accesories h2{
+    color: #FF5C00;
+}
+.hoodies h2{
+    color: #FF5C00;
+}
+.shirt h2{
+    color: #FF5C00;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: auto;
+}
+.grid-container .acc-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid-container .acc-grid img{
+    width: 100%;
+    max-width: 300px;
+}
+.products-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-grid nav ul li a{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.footer-grid ul li a{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    padding: 13px;
+}
+
+/* h2{
+    color: #FF5C00;
+} */
+
+
+/* body{
+    overflow-x: hidden;
+} */
+
+@media (max-width: 1440px){
+    /* header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li a{
+        display: flex;
+        justify-content: flex-end;
+    } */
+    /* header .UG a{
+        display: flex;
+        justify-content: flex-start;
+        color: #FF5C00;
+        font-size: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifx; 
+        text-decoration: none;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    h1{
+        justify-content: center;
+    } */
+     
+
+    }
+    @media (max-width: 1024px) {
+        header nav ul li a{
+            padding: 10px 30px;
+            margin: 15px;
+            justify-content: flex-start;
+        }
+        .main2 .hoodies a{
+            display: flex;
+            justify-content: center;
+                        
+        }
+        .main2 .accesories a{
+           display: flex;
+           justify-content: center;
+        }
+        .main1 .shirt a{
+            display: flex;
+            justify-content: center;   
+        }
+        .main1 .pants a{
+           display: flex;
+           justify-content: center;
+        }
+        footer ul li a{
+            justify-content: space-between;
+            padding: 40px 40px;
+        }
+    }
+
+
+
+    @media (max-width: 768px){
+        .header ul li a{
+            font-size: 18px;
+            padding: 5px;
+        }
+        
+        .main1 .shirt img{
+            height: 350px;
+            width: 350px;
+        }
+        .main1 .pants img{
+            height: 350px;
+            width: 350px;
+        }
+        .main2 .hoodies img{
+            height: 350px;
+            width: 350px;
+        }
+        .main2 .accesories img{
+            height: 350px;
+            width: 350px;
+        }
+        footer ul li a{
+            justify-content: space-between;
+            padding: 10px 10px;
+            font-size: 20px;
+        }        
+       header.UG a{
+            display: flex;
+            justify-content: flex-start;
+            color: #FF5C00;
+            padding: 5px;
+        }
+    }
+    
+    .pants a:hover{
+        text-decoration: underline;
+    }
+    .shirt a:hover{
+        text-decoration: underline;
+    }
+    .header ul li a:hover{
+        text-decoration: underline;
+    }
+    footer ul li a:hover{
+        text-decoration: underline;
+    }
+
+@media (max-width:426px){
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        width: 100vh;
+    }
+    body{
+        width: 100vh;
+    }
+
+    .main1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    }
+    footer ul li a{
+        font-size: 15px;
+    }

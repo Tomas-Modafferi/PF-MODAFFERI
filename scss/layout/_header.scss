@@ -1,0 +1,28 @@
+@import "../utilities/variables";
+header{
+    nav{
+        width: 100%;
+        .UG{
+            a{
+                color: color_primario;
+                font-size: 40px;
+                font-family: urban; 
+            }
+            }
+        ul{
+            width: 100%;
+            overflow: hidden;
+            list-style: none;
+            li{
+                a{
+                text-decoration: none;
+                justify-content: left;
+                padding: 15px 20px;
+                color: color_primario;
+                margin: 5px 50px;
+                }
+                
+            }
+        }
+    }
+}
