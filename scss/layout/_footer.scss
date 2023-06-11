@@ -10,8 +10,8 @@ footer{
 	        display: inline-block;
             a{
                 display: inline-block;
-                font-size: 25px;
-                color: color_primario;
+                font-size: 20px;
+                color: $color_primario;
                 text-decoration: none;
                 padding: 50px 70px;
                 &:hover{

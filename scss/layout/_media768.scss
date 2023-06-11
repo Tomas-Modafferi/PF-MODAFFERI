@@ -1,0 +1,43 @@
+@media (max-width: 768px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        .UG{
+            a{
+                font-size: 35px;
+                font-family: urban;
+            }
+        }
+        .header{
+            ul{
+                li{
+                    a{
+                        font-size: 18px;
+                        padding: 5px;
+                        text-decoration: none;
+                        font-family: urban;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    footer{
+        ul{
+            li{
+                a{
+                    justify-content: space-between;
+                    padding: 10px 10px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

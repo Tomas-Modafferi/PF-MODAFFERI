@@ -245,26 +245,26 @@ footer ul li a{
      
 
     }
-    @media (max-width: 1024px) {
+    /* @media (max-width: 1024px) {
         header nav ul li a{
             padding: 10px 30px;
             margin: 15px;
             justify-content: flex-start;
-        }
-        .main2 .hoodies a{
+        } */
+        /* .main .hoodies a{
             display: flex;
             justify-content: center;
-                        
-        }
-        .main2 .accesories a{
+                         */
+        /* }
+        .main .accesories a{
            display: flex;
            justify-content: center;
         }
-        .main1 .shirt a{
+        .main .shirt a{
             display: flex;
             justify-content: center;   
         }
-        .main1 .pants a{
+        .main .pants a{
            display: flex;
            justify-content: center;
         }
@@ -272,16 +272,16 @@ footer ul li a{
             justify-content: space-between;
             padding: 40px 40px;
         }
-    }
+    } */
 
 
 
-    @media (max-width: 768px){
+    /* @media (max-width: 768px){
         .header ul li a{
             font-size: 18px;
             padding: 5px;
         }
-        
+         */
         .main1 .shirt img{
             height: 350px;
             width: 350px;
@@ -311,7 +311,7 @@ footer ul li a{
         }
     }
     
-    .pants a:hover{
+    /* .pants a:hover{
         text-decoration: underline;
     }
     .shirt a:hover{
@@ -322,7 +322,7 @@ footer ul li a{
     }
     footer ul li a:hover{
         text-decoration: underline;
-    }
+    } */
 
 @media (max-width:426px){
     h1{

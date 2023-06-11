@@ -1,16 +1,21 @@
 $color_primario: #FF5C00;
+$color-secundario: rgba(255, 255, 255, 0.776);
 
 body{
     font-weight: bold;
-    background-image: linear-gradient(to right top, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #3a393e, #3b3640, #3d3341, #555c7b, #558eb5, #44c4df, #5ffbf1);    overflow-x: hidden;
+    overflow-x: hidden;
+    background-image: linear-gradient(to left bottom, #000000, #0d0d0d, #171617, #1e1d1e, #252526, #252526, #252526, #252526, #1e1d1e, #171617, #0d0d0d, #000000);
 }
 h1{
+    display: flex;
+    justify-content: center;
     font-family: urban;
-    color: color_primario;
+    color: $color_primario;
     text-align: center;
+    
 }
 h2{
-    color: color_primario;
+    color: $color_primario;
 }
 .main{
     display:flex;
@@ -19,17 +24,22 @@ h2{
     overflow: hidden;
     width: 100%;
     gap: 10px;
+    margin: 10px;
+    padding: 10px;
     .item{
         a{
             display: flex;
             justify-content: center;
-            color: color_primario;
+            color: $color_primario;
             text-align: center;
             text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
         }
         img{
-            height:350px;
-            width: 350px;
+            height:20rem;
+            width: 20rem;
             vertical-align: top;
             justify-content: center;
             &:hover{
