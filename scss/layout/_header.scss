@@ -1,32 +1,12 @@
 @import "../utilities/variables";
-
-
-// .header{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
-// header{
-//     width: 100vh;
-//     nav{
-//         .header{
-//             ul{
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 li{
-//                     display: flex;
-//                     justify-content: center;
-//                     padding: 0.8rem 0.8rem;
-    
-//                     a{
-//                         color: $color-primario;
-//                         display: flex;
-//                         justify-content: center;
-//                     }
-//                 }
-//             }
-//         }
-        
-//     }
-// }
+header{
+    .navi-1{
+        .-container-fluid{
+            a{background-color: red;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

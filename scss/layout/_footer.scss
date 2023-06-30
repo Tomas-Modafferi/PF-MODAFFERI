@@ -1,12 +1,5 @@
 footer{
-    .fot-1{
-        fot-2{
-            a{
-                display: flex;
-                justify-content: center;
-            }
-        }
-    }
+    background-color: black;
 }
 
 
@@ -16,26 +9,3 @@ footer{
 
 
 
-// @import "../utilities/variables";
-// footer{
-//     ul{
-//         margin: 0px 20px;
-//         text-align: center;
-//         overflow: hidden;
-//         list-style: none;
-//         li{
-//             text-decoration: none;
-// 	        display: inline-block;
-//             a{
-//                 display: inline-block;
-//                 font-size: 20px;
-//                 color: $color_primario;
-//                 text-decoration: none;
-//                 padding: 50px 70px;
-//                 &:hover{
-//                     text-decoration: underline;
-//                 }
-//             }
-//         }
-//     }
-// }

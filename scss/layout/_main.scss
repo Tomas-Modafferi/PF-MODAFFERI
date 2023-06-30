@@ -3,13 +3,13 @@ h1{
     text-align: center;
     color: $color-primario;
     font-weight: bold;
-}
-.no-index{
     font-family: 'Roboto', sans-serif;
 }
 
+
 body{
     background-color: white;
+    background-image: url(../);
 }
 .container{
     .cont{
@@ -17,9 +17,11 @@ body{
             .card{
                 .card-body{
                     a{
+                        @extend h1;
                         text-decoration: none;
                         display: flex;
                         justify-content: center;
+                        font-family: 'Roboto', sans-serif;
                         &:hover{
                             text-decoration: underline;
                             color: black;

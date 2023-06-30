@@ -7,25 +7,29 @@
   font-family: 'urban';
   src: url("../assets/fonts/Urban TRIBE.ttf") format("truetype"); }
 
-footer .fot-1 fot-2 a {
-  display: flex;
-  justify-content: center; }
+header .navi-1 .-container-fluid a {
+  background-color: red; }
+  header .navi-1 .-container-fluid a:hover {
+    text-decoration: underline; }
 
-h1 {
+footer {
+  background-color: black; }
+
+h1, .container .cont .col .card .card-body a {
   text-align: center;
   color: black;
-  font-weight: bold; }
-
-.no-index {
+  font-weight: bold;
   font-family: 'Roboto', sans-serif; }
 
 body {
-  background-color: white; }
+  background-color: white;
+  background-image: url(../); }
 
 .container .cont .col .card .card-body a {
   text-decoration: none;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-family: 'Roboto', sans-serif; }
   .container .cont .col .card .card-body a:hover {
     text-decoration: underline;
     color: black; }
